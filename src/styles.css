@@ -719,8 +719,8 @@ a {
 .brand {
   display: flex;
   align-items: center;
-  max-width: 240px;
-  overflow: hidden;
+  max-width: 420px;
+  overflow: visible;
 }
 
 .header {
@@ -734,6 +734,6 @@ a {
   }
 
   .brand {
-    max-width: 180px;
+    max-width: 320px;
   }
 }
