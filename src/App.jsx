@@ -22,17 +22,8 @@ export default function App() {
       <header className="header">
         <div className="nav-wrap">
           <a href="#home" className="brand">
-            <div className="brand-mark">
-              <div className="pallet-line line-1" />
-              <div className="pallet-line line-2" />
-              <div className="pallet-line line-3" />
-              <span>NST</span>
-            </div>
-            <div>
-              <p className="brand-title">NST Pallets</p>
-              <p className="brand-subtitle">Built Strong</p>
-            </div>
-          </a>
+  <img src={logo} alt="NST Pallets" className="brand-logo" />
+</a>
 
           <nav className="nav">
             <a href="#services">Services</a>
