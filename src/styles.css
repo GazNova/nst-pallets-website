@@ -709,9 +709,9 @@ a {
   }
 }
 .brand-logo {
-  height: 54px;
+  height: 95px;
   width: auto;
-  max-width: 220px;
+  max-width: 340px;
   object-fit: contain;
   display: block;
 }
@@ -729,8 +729,8 @@ a {
 
 @media (max-width: 640px) {
   .brand-logo {
-    height: 42px;
-    max-width: 170px;
+    height: 72px;
+    max-width: 260px;
   }
 
   .brand {
