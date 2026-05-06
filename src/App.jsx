@@ -15,7 +15,7 @@ import {
   ClipboardList,
 } from "lucide-react";
 
-import logo from "./nst-logo-navbar.png";
+import logo from "./file_0000000028e071f597f1d7161b36bb11.png";
 export default function App() {
   return (
     <div className="site">
