@@ -708,3 +708,32 @@ a {
     padding: 24px 18px;
   }
 }
+.brand-logo {
+  height: 54px;
+  width: auto;
+  max-width: 220px;
+  object-fit: contain;
+  display: block;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  max-width: 240px;
+  overflow: hidden;
+}
+
+.header {
+  overflow: hidden;
+}
+
+@media (max-width: 640px) {
+  .brand-logo {
+    height: 42px;
+    max-width: 170px;
+  }
+
+  .brand {
+    max-width: 180px;
+  }
+}
